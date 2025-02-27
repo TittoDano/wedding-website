@@ -1,48 +1,28 @@
 ---
 draft: false
-title: "Order of Events"
+title: "Cosa Succede"
 ---
 
-## 1:30pm - Arrivals
+## 11:30 - Arrivi
 
-Everyone arrives at Higher Eggbeer
+Arrivano tutti gli invitati in chiesa. 
 
-Warm drink on arrival before the ceremony
+*( seeee, magari! )*
 
-## 2pm - Ceremony
+## 12:00 - Cerimonia
 
-Inside the **Chapel Barn** at Higher Eggbeer
+Si attende la sposa.
 
-## 2:30pm - Reception
+## 12:15
 
-Sparkling, canapes and photographs on the lawn after the ceremony- weather permitting!
+Arriva la sposa !!
 
-Please do wrap up warm, but we have contingencies for rain
+## 12:16
 
-## 4pm - Wedding Breakfast
+Arriva lo **sposo** !!!
 
-A dinner with wine will follow in Higher Eggbeer's **Banquet Barn**
+*Sapete tutti che sono molto impegnato (... per non dire ritardatario)*
 
-Speeches after dinner
+## Poi... la Festa!
 
-_Venue Bar opens during the wedding breakfast -  cash & card accepted_
-
-## Later... The Party
-
-After a quick reshuffle of the **Banquet Barn**, the party will begin!
-
-_The Small Things_ playing live music until 11pm
-
-Late night food served for those still peckish!
-
-## Carriages at midnight
-
-Wrap up warm for sparklers, toasted marshmallows, and drunken warbling around the fire pit as we begin to say our farewells!
-
-_Venue Bar closes shortly after midnight_
-
-## Wheelbarrows at 2am
-
-The **Banquet Barn** will shut at around midnight… but the party doesn’t need to end there!
-
-The smaller **‘Pub’ Barn** will be opened with a few bottles and maybe some kegs, for those hardcore enough to stay up!
+Ci si mette tutti in viaggio verso una destinazione non meglio specificata, ma che presto sarà ben chiara nelle nostre menti!

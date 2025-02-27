@@ -1,13 +1,27 @@
+{{ $bg1 := resources.Get (printf "image/%s" .Site.Params.background_image_1) | fingerprint }}
+{{ $bg2 := resources.Get (printf "image/%s" .Site.Params.background_image_2) | fingerprint }}
+{{ $bg3 := resources.Get (printf "image/%s" .Site.Params.background_image_3) | fingerprint }}
+{{ $bg4 := resources.Get (printf "image/%s" .Site.Params.background_image_4) | fingerprint }}
+{{ $bg5 := resources.Get (printf "image/%s" .Site.Params.background_image_5) | fingerprint }}
+
 <style>
     .image1 {
-        background-image: url("{{ .Site.Params.background_image_1 }}");
+        background-image: url("{{ $bg1.RelPermalink }}");
     }
 
     .image2 {
-        background-image: url("{{ .Site.Params.background_image_2 }}");
+        background-image: url("{{ $bg2.RelPermalink }}");
     }
 
     .image3 {
-        background-image: url("{{ .Site.Params.background_image_3 }}");
+        background-image: url("{{ $bg3.RelPermalink }}");
+    }
+
+    .image4 {
+        background-image: url("{{ $bg4.RelPermalink }}");
+    }
+
+    .image5 {
+        background-image: url("{{ $bg5.RelPermalink }}");
     }
 </style>

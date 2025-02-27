@@ -4,17 +4,19 @@
         <title> {{ .Site.Title }} </title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no" />
-        <link rel="icon" href="{{ .Site.BaseURL }}/image/favicon.png">
-
-        <!-- <link href="style.css" rel="stylesheet" /> -->
-        <link href="{{ .Site.BaseURL }}/css/style.css" rel="stylesheet" />
+        {{ $favicon := resources.Get "image/favicon.png" | fingerprint }}
+        <link rel="icon" href="{{ $favicon.RelPermalink }}" type="image/png">
+        
+        {{ $css := resources.Get "css/style.css" | fingerprint }}
+        <link rel="stylesheet" href="{{ $css.RelPermalink }}">        
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
         {{ block "dynamic_styles" . -}}{{- end }}
     </head>
     <body id="top">
         {{ block "main" . -}}{{- end }}
-        <script src="{{ .Site.BaseURL }}/js/script.js"></script>
+        {{ $js := resources.Get "js/script.js" | fingerprint }}
+        <script src="{{ $js.RelPermalink }}"></script>        
     </body>
 </html>

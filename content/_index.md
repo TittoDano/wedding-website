@@ -1,7 +1,7 @@
 ---
 draft: false
-when: "Sat 11th Feb 2023, 2:00 PM"
+when: "XY Settembre 2025, ore 12:00"
 where:
-  first: "Higher Eggbeer Farm"
-  second: "Cheriton Bishop, Nr Exeter, Devon, EX6 6JQ"
+  first: "Parrocchia Santa Chiara in Roma"
+  second: "Via Riccardo Zandonai, 4, 00135 Roma RM"
 ---

@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Accommodation"
+title: "La Festa"
 ---
 
 ## Camping and Caravans at Higher Eggbeer

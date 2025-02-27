@@ -35,7 +35,7 @@ html {
 
 /* VARIABLES */
 :root {
-  --main-font: 'Noto Sans', sans-serif;
+  --main-font: 'Playfair Display', serif;
 
   --cream: #FAF2DA;
   --light-green: #8E9775;
@@ -243,7 +243,7 @@ html {
   font-weight: bolder;
   margin-bottom: 1.5rem;
   color: var(--cream);
-  font-style: italic;
+  font-style: normal;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -372,7 +372,7 @@ html {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
   color: inherit;
-  font-style: italic;
+  font-style: normal;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -380,6 +380,7 @@ html {
 
 .section__subheading {
   font-weight: 400;
+  font-size: 115%;
   font-style: italic;
   margin-bottom: 1rem;
 }

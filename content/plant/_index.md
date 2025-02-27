@@ -1,18 +1,18 @@
 ---
 draft: false
-title: "Planting your invitation"
+title: "Come piantare l'invito"
 ---
 
-1. Soak the seeded paper in water for at least twelve hours, to swell the seeds and aid germination.
+1. Immergere la carta seminata in acqua per almeno dodici ore, per gonfiare i semi e favorire la germinazione.
 
 <br/>
 
-2. Cover with a thin layer of soil and keep moist by spraying daily until seedlings are established.
+2. Coprite con un sottile strato di terriccio e mantenetelo umido spruzzando quotidianamente fino a quando le piantine non si saranno insediate.
 
 <br/>
 
-3. Germination time is approximately seven to ten days. If planting outdoors it is best to sow in late spring or early summer, to avoid frosts.
+3. Il tempo di germinazione è di circa sette-dieci giorni. Se si pianta all'aperto è meglio seminare in tarda primavera o all'inizio dell'estate, per evitare le gelate.
 
 <br/>
 
-4. Can be planted and grown indoors or outdoors.
+4. Può essere piantata e coltivata sia all'interno che all'esterno.

@@ -1,6 +1,6 @@
 baseURL = "/"
 canonifyURLs = true
-languageCode = "en-us"
+languageCode = "it-IT"
 title = "Andrew & Niki's Wedding"
 show_comments = false
 
@@ -33,9 +33,11 @@ disableKinds = ["sitemap", "RSS"]
     xhtml = false
 
 [params]
-  background_image_1 = "https://res.cloudinary.com/dl1rwtqzi/image/upload/c_scale,w_1000/v1642951408/IMG_0240_vqanow.jpg"
-  background_image_2 = "https://res.cloudinary.com/dl1rwtqzi/image/upload/v1642951897/9eb8ed9f-fffd-4098-b2e2-11bf5dc4dda6_mlelgw.png"
-  background_image_3 = "https://res.cloudinary.com/dl1rwtqzi/image/upload/c_scale,w_1000/v1642952534/heyaeyae-screenshot_oacy4d.png"
+  background_image_1 = "5marzo_andrew.jpg"
+  background_image_2 = "santa_severa.jpg"
+  background_image_3 = "oceano.jpg"
+  background_image_4 = "sabbie_doro.jpg"
+  background_image_5 = "5marzo_niki.jpg"
 
 [menu]
   [[menu.main]]
@@ -45,6 +47,6 @@ disableKinds = ["sitemap", "RSS"]
     weight = 1
   [[menu.main]]
     identifier = "travel"
-    name = "Travel"
+    name = "Dove"
     url = "/travel/"
     weight = 2

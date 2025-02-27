@@ -6,16 +6,16 @@
         <div class="section__svg">
             {{ partial "svgs/leaf.svg" . }}
         </div>
-        <h1 class="section__heading">The Wedding</h1>
+        <h1 class="section__heading">Il grande giorno</h1>
         <section class="section__split">
             <div>
-                <p class="section__subheading">When</p>
+                <p class="section__subheading">Quando</p>
                 <p class="section__text--bold">
                     {{ .Params.when }}
                 </p>
             </div>
             <div>
-                <p class="section__subheading">Where</p>
+                <p class="section__subheading">Dove</p>
                 <p class="section__text--bold">
                     {{ .Params.where.first }}
                 </p>
@@ -25,7 +25,7 @@
             </div>
         </section>
         <!-- My CSS in this project is bad, man -->
-        <section style="display:flex;flex-direction:column;align-items:center;">
+        <!-- <section style="display:flex;flex-direction:column;align-items:center;">
             <h2 style="margin-top:2rem;" class="section__heading">Speeches</h2>
 
             <h3 style="margin-top:2rem;" class="section__heading">Father of Bride</h3>
@@ -46,11 +46,24 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
 
-        </section>
+        </section> -->
     </section>
 
     <div class="image image2"></div>
 
+    <section id="where" class="section light">
+        <div class="section__svg">
+            {{ partial "svgs/leaf.svg" . }}
+        </div>
+
+        {{ $t := .Site.GetPage "/section/where" }}
+        <h1 class="section__heading">{{$t.Params.title}}</h1>
+        <section class="section__md-content">
+            {{ $t.Content }}
+        </section>
+    </section>
+
+    <div class="image image3"></div>
 
     <section id="order-of-events" class="section light">
         <div class="section__svg">
@@ -64,21 +77,21 @@
         </section>
     </section>
 
-    <div class="image image3"></div>
+    <div class="image image4"></div>
 
-    <section id="travel-accommodation" class="section light">
+    <section id="party" class="section light">
         <div class="section__svg">
             {{ partial "svgs/leaf.svg" . }}
         </div>
 
-        {{ $t := .Site.GetPage "/section/travel-accommodation" }}
+        {{ $t := .Site.GetPage "/section/party" }}
         <h1 class="section__heading">{{$t.Params.title}}</h1>
         <section class="section__md-content">
             {{ $t.Content }}
         </section>
     </section>
 
-    <div class="image image1"></div>
+    <!-- <div class="image image1"></div>
 
     <section id="dress" class="section light">
         <div class="section__svg">
@@ -104,24 +117,22 @@
         <section class="section__md-content">
             {{ $t.Content }}
         </section>
-    </section>
+    </section> -->
 
-    <div class="image image2"></div>
+    <div class="image image5"></div>
 
     <section id="more" class="section light" style="text-align:center;">
         <div class="section__svg">
             {{ partial "svgs/leaf.svg" . }}
         </div>
-        <p style="margin-bottom:1em;">Thank you for visiting our website!</p>
-        <p style="margin-bottom:1em;">We cannot wait to share this special day with you, and have all our loved ones
-            under one roof for the first time in FOREVER!</p>
-        <p style="margin-bottom:1em;">In the meantime, if you have any questions you can contact us both at <a
-                href="mailto:hugoandsarah2023@gmail.com">HugoAndSarah2023@gmail.com</a></p>
+        <p style="margin-bottom:1em;">Grazie per aver visitato il nostro sito!</p>
+        <p style="margin-bottom:1em;">Non vediamo l'ora di condividere questo giorno speciale con voi e di avere tutti i nostri cari sotto lo stesso tetto per la prima volta e per SEMPRE !!</p>
+        <p style="margin-bottom:1em;">Nel frattempo, per qualsiasi domanda, potete scriverci all'indirizzo <a
+                href="mailto:hugoandsarah2023@gmail.com">niki@andrew.style</a></p>
 
         <p style="margin-top:2em;margin-bottom:1em;">*</p>
-        <p style="margin-bottom:1em;">Also, did you know the invitation is made of recycled paper and wild flower seeds,
-            and can be planted?</p>
-        <p style="margin-bottom:1em;">To plant your invitation, <a href="/plant">see instructions here</a>
+        <p style="margin-bottom:1em;">Inoltre, sapevate che l'invito è fatto di carta riciclata e semi di fiori selvatici e può essere piantato?</p>
+        <p style="margin-bottom:1em;">Per piantare il vostro invito, consultate le <a href="/plant">istruzioni qui</a>.
         </p>
         </p>
     </section>
