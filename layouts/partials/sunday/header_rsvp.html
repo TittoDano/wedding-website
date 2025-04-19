@@ -1,4 +1,4 @@
-<header class="header">
+<header>
     {{ $cover := resources.Get "image/cover.jpg" | fingerprint }}
     <meta property="og:image" content="{{ $cover.Permalink }}" />
     <meta property="og:title" content="{{ .Site.Title }} - Sabato 27 Settembre 2025" />
