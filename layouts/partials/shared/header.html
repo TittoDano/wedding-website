@@ -1,10 +1,12 @@
 <header class="header">
+    {{ $cover := resources.Get "image/cover.jpg" | fingerprint }}
+    <meta property="og:image" content="{{ $cover.Permalink }}" />
     <meta property="og:title" content="{{ .Site.Title }}" />
     <meta property="og:description" content="Ci sposiamo Sabato 27 Settembre 2025! - Scopri i dettagli del matrimonio e del nostro viaggio di nozze in Argentina!" />
     <meta property="og:url" content="{{ .Site.BaseURL }}" />
-    <meta property="og:image" content="{{ "image/cover.jpg" | absURL }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Andrew & Niki" />
     
-
     {{ partial "svgs/wedding-logo-new.svg" . }}
     <p class="header__text header__text--light">...ci sposiamo!</p>
     <p class="header__text header__text--heavy">Sabato, 27 Settembre 2025</p>
