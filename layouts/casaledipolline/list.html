@@ -6,5 +6,10 @@
     {{ .Page.Content }}
 </section>
 
+<div class="scroll-top">
+    <a class="scroll-top__button" href="#top">
+        {{ partial "svgs/scroll-up.svg" . }}
+    </a>
+</div>
 {{ partial "shared/footer.html" . }}
 {{- end }}
