@@ -1,10 +1,9 @@
 <header class="header">
-    <meta property="og:title" content="Andrew & Niki's Wedding 💍" />
-    <meta property="og:description" content="Un giorno speciale da condividere. Scopri i dettagli del matrimonio e il nostro viaggio in Argentina!" />
-    <meta property="og:url" content="https://niki.andrew.style/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://niki.andrew.style/image/cover.jpg" />
-    <meta property="og:site_name" content="Andrew & Niki" />
+    <meta property="og:title" content="{{ .Site.Title }}" />
+    <meta property="og:description" content="Ci sposiamo Sabato 27 Settembre 2025! - Scopri i dettagli del matrimonio e del nostro viaggio di nozze in Argentina!" />
+    <meta property="og:url" content="{{ .Site.BaseURL }}" />
+    <meta property="og:image" content="{{ "image/cover.jpg" | absURL }}" />
+    
 
     {{ partial "svgs/wedding-logo-new.svg" . }}
     <p class="header__text header__text--light">...ci sposiamo!</p>

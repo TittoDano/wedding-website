@@ -46,6 +46,7 @@ disableKinds = ["sitemap", "RSS"]
   background_image_11 = "ruta_68.jpg"
   background_image_12 = "cafayate.jpg"
   background_image_13 = "mendoza.jpg"
+  background_image_14 = "cover.jpg"
 
 [menu]
   [[menu.main]]

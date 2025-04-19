@@ -11,6 +11,7 @@
 {{ $bg11 := resources.Get (printf "image/%s" .Site.Params.background_image_11) | fingerprint }}
 {{ $bg12 := resources.Get (printf "image/%s" .Site.Params.background_image_12) | fingerprint }}
 {{ $bg13 := resources.Get (printf "image/%s" .Site.Params.background_image_13) | fingerprint }}
+{{ $bg14 := resources.Get (printf "image/%s" .Site.Params.background_image_14) | fingerprint }}
 <style>
     .image1 {
         background-image: url("{{ $bg1.RelPermalink }}");
@@ -54,5 +55,8 @@
     }
     .image13 {
         background-image: url("{{ $bg13.RelPermalink }}");
+    }
+    .image14 {
+        background-image: url("{{ $bg14.RelPermalink }}");
     }
 </style>
