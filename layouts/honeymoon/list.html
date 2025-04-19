@@ -1,0 +1,92 @@
+{{ define "dynamic_styles" -}}
+
+{{ partial "shared/dynamic_styles.html" . }}
+
+{{- end }}
+
+{{ define "main" -}}
+
+<main>
+{{ partial "sunday/navigation.html" . }}
+
+<section class="section light standalone">
+    <h1 class="section__heading">{{.Page.Title}}</h1>
+    {{ .Page.Content }}
+</section>
+
+<section id="patagonia" class="section light">
+    {{ $t := .Site.GetPage "/honeymoon/patagonia" }}
+    <h1 class="section__heading">{{$t.Params.title}}</h1>
+    <section class="section__md-content">
+        {{ $t.Content }}
+    </section>
+</section>
+<div class="image image6"></div>
+
+<section id="perito-moreno" class="section light">
+    {{ $t := .Site.GetPage "/honeymoon/perito_moreno" }}
+    <h1 class="section__heading">{{$t.Params.title}}</h1>
+    <section class="section__md-content">
+        {{ $t.Content }}
+    </section>
+</section>
+<div class="image image7"></div>
+
+<section id="iguazu-falls" class="section light">
+    {{ $t := .Site.GetPage "/honeymoon/iguazu_falls" }}
+    <h1 class="section__heading">{{$t.Params.title}}</h1>
+    <section class="section__md-content">
+        {{ $t.Content }}
+    </section>
+</section>
+<div class="image image8"></div>
+
+<section id="tilcara" class="section light">
+    {{ $t := .Site.GetPage "/honeymoon/tilcara" }}
+    <h1 class="section__heading">{{$t.Params.title}}</h1>
+    <section class="section__md-content">
+        {{ $t.Content }}
+    </section>
+</section>
+<div class="image image9"></div>
+
+<section id="salinas-grandes" class="section light">
+    {{ $t := .Site.GetPage "/honeymoon/salinas_grandes" }}
+    <h1 class="section__heading">{{$t.Params.title}}</h1>
+    <section class="section__md-content">
+        {{ $t.Content }}
+    </section>
+</section>
+<div class="image image10"></div>
+
+<section id="ruta-68" class="section light">
+    {{ $t := .Site.GetPage "/honeymoon/ruta_68" }}
+    <h1 class="section__heading">{{$t.Params.title}}</h1>
+    <section class="section__md-content">
+        {{ $t.Content }}
+    </section>
+</section>
+<div class="image image11"></div>
+
+<section id="cafayate" class="section light">
+    {{ $t := .Site.GetPage "/honeymoon/cafayate" }}
+    <h1 class="section__heading">{{$t.Params.title}}</h1>
+    <section class="section__md-content">
+        {{ $t.Content }}
+    </section>
+</section>
+<div class="image image12"></div>
+
+<section id="mendoza" class="section light">
+    {{ $t := .Site.GetPage "/honeymoon/mendoza" }}
+    <h1 class="section__heading">{{$t.Params.title}}</h1>
+    <section class="section__md-content">
+        {{ $t.Content }}
+    </section>
+</section>
+<div class="image image13"></div>
+
+{{ partial "shared/footer.html" . }}
+</main>
+
+{{- end }}

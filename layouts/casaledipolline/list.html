@@ -1,0 +1,10 @@
+
+{{ define "main" -}}
+{{ partial "sunday/navigation.html" . }}
+
+<section class="section light standalone">
+    {{ .Page.Content }}
+</section>
+
+{{ partial "shared/footer.html" . }}
+{{- end }}

@@ -38,6 +38,14 @@ disableKinds = ["sitemap", "RSS"]
   background_image_3 = "oceano.jpg"
   background_image_4 = "sabbie_doro.jpg"
   background_image_5 = "5marzo_niki.jpg"
+  background_image_6 = "patagonia.jpg"
+  background_image_7 = "perito_moreno.jpg"
+  background_image_8 = "iguazu_falls.jpg"
+  background_image_9 = "tilcara.jpeg"
+  background_image_10 = "salinas_grandes.jpg"
+  background_image_11 = "ruta_68.jpg"
+  background_image_12 = "cafayate.jpg"
+  background_image_13 = "mendoza.jpg"
 
 [menu]
   [[menu.main]]

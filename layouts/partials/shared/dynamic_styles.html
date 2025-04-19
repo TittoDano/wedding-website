@@ -3,7 +3,14 @@
 {{ $bg3 := resources.Get (printf "image/%s" .Site.Params.background_image_3) | fingerprint }}
 {{ $bg4 := resources.Get (printf "image/%s" .Site.Params.background_image_4) | fingerprint }}
 {{ $bg5 := resources.Get (printf "image/%s" .Site.Params.background_image_5) | fingerprint }}
-
+{{ $bg6 := resources.Get (printf "image/%s" .Site.Params.background_image_6) | fingerprint }}
+{{ $bg7 := resources.Get (printf "image/%s" .Site.Params.background_image_7) | fingerprint }}
+{{ $bg8 := resources.Get (printf "image/%s" .Site.Params.background_image_8) | fingerprint }}
+{{ $bg9 := resources.Get (printf "image/%s" .Site.Params.background_image_9) | fingerprint }}
+{{ $bg10 := resources.Get (printf "image/%s" .Site.Params.background_image_10) | fingerprint }}
+{{ $bg11 := resources.Get (printf "image/%s" .Site.Params.background_image_11) | fingerprint }}
+{{ $bg12 := resources.Get (printf "image/%s" .Site.Params.background_image_12) | fingerprint }}
+{{ $bg13 := resources.Get (printf "image/%s" .Site.Params.background_image_13) | fingerprint }}
 <style>
     .image1 {
         background-image: url("{{ $bg1.RelPermalink }}");
@@ -23,5 +30,29 @@
 
     .image5 {
         background-image: url("{{ $bg5.RelPermalink }}");
+    }
+    .image6 {
+        background-image: url("{{ $bg6.RelPermalink }}");
+    }
+    .image7 {
+        background-image: url("{{ $bg7.RelPermalink }}");
+    }
+    .image8 {
+        background-image: url("{{ $bg8.RelPermalink }}");
+    }
+    .image9 {
+        background-image: url("{{ $bg9.RelPermalink }}");
+    }
+    .image10 {
+        background-image: url("{{ $bg10.RelPermalink }}");
+    }
+    .image11 {
+        background-image: url("{{ $bg11.RelPermalink }}");
+    }
+    .image12 {
+        background-image: url("{{ $bg12.RelPermalink }}");
+    }
+    .image13 {
+        background-image: url("{{ $bg13.RelPermalink }}");
     }
 </style>
