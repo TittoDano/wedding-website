@@ -1,9 +1,0 @@
-<header>
-    {{ $cover := resources.Get "image/cover.jpg" | fingerprint }}
-    <meta property="og:image" content="{{ $cover.Permalink }}" />
-    <meta property="og:title" content="{{ .Site.Title }} - Sabato 27 Settembre 2025" />
-    <meta property="og:description" content="Ci sposiamo! Conferma la tua presenza al nostro matrimonio." />
-    <meta property="og:url" content="{{ .Site.BaseURL }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Andrew & Niki" />
-</header>
