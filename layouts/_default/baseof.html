@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title> {{ .Site.Title }} </title>
-        {{ $5marzo_andrew := resources.Get "image/5marzo_andrew.jpg" | fingerprint }}
+        {{ $5marzo_andrew := resources.Get "image/5marzo_cover.jpg" | fingerprint }}
         <meta property="og:image" content="{{ $5marzo_andrew.Permalink }}" />
         <meta property="og:title" content="{{ .Site.Title }} - Sabato 27 Settembre 2025" />
         <meta property="og:description" content="Ci sposiamo! - Scopri tutti i dettagli del nostro matrimonio." />
