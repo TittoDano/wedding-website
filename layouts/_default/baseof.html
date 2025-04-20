@@ -2,6 +2,13 @@
 <html lang="en">
     <head>
         <title> {{ .Site.Title }} </title>
+        {{ $5marzo_andrew := resources.Get "image/5marzo_andrew.jpg" | fingerprint }}
+        <meta property="og:image" content="{{ $5marzo_andrew.Permalink }}" />
+        <meta property="og:title" content="{{ .Site.Title }} - Sabato 27 Settembre 2025" />
+        <meta property="og:description" content="Ci sposiamo! - Scopri tutti i dettagli del nostro matrimonio." />
+        <meta property="og:url" content="{{ .Site.BaseURL }}" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Andrew & Niki" />
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no" />
         {{ $favicon := resources.Get "image/favicon.png" | fingerprint }}

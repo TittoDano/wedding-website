@@ -1,7 +1,7 @@
 baseURL = "/"
 canonifyURLs = true
 languageCode = "it-IT"
-title = "Andrew & Niki's Wedding"
+title = "💒 Andrew & Niki's Wedding"
 show_comments = false
 
 disableKinds = ["sitemap", "RSS"]
@@ -46,7 +46,9 @@ disableKinds = ["sitemap", "RSS"]
   background_image_11 = "ruta_68.jpg"
   background_image_12 = "cafayate.jpg"
   background_image_13 = "mendoza.jpg"
-  background_image_14 = "cover.jpg"
+  background_image_14 = "casale_cover.jpg"
+  background_image_15 = "5marzo_cover.jpg"
+  background_image_16 = "patagonia_cover.jpg"
 
 [menu]
   [[menu.main]]
