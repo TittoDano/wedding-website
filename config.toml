@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://niki.andrew.style/"
 canonifyURLs = true
 languageCode = "it-IT"
 title = "💒 Andrew & Niki's Wedding"
