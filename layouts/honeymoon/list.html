@@ -1,3 +1,13 @@
+{{ define "opengraph" }}
+  {{ $honeymoonImage := resources.Get "image/iguazu_cover.jpg" | fingerprint }}
+  <meta property="og:image" content="{{ $honeymoonImage.Permalink }}" />
+  <meta property="og:title" content="{{ .Site.Title }} - Supporta il nostro viaggio di nozze! 🌎" />
+  <meta property="og:description" content="Scopri le tappe della nostra avventura in Argentina – natura, vino e meraviglie!" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Andrew & Niki" />
+{{ end }}
+
 {{ define "dynamic_styles" -}}
 
 {{ partial "shared/dynamic_styles.html" . }}

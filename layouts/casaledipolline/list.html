@@ -1,3 +1,12 @@
+{{ define "opengraph" }}
+  {{ $honeymoonImage := resources.Get "image/casale_cover.jpg" | fingerprint }}
+  <meta property="og:image" content="{{ $honeymoonImage.Permalink }}" />
+  <meta property="og:title" content="{{ .Site.Title }} - 💌 RSVP – Conferma la tua presenza al pranzo di nozze!" />
+  <meta property="og:description" content="Siamo felici di invitarti al pranzo del nostro matrimonio. Facci sapere, confermando la tua presenza!" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Andrew & Niki" />
+{{ end }}
 
 {{ define "main" -}}
 {{ partial "sunday/navigation.html" . }}
