@@ -23,9 +23,11 @@ Curiosi? Continuate a leggere per scoprire tutto e darci conferma della vostra p
 
 ## Come arrivare
 
-La prima volta che siamo venuti qui, la macchina ci ha abbandonato a metà strada, ma non ci siamo arresi! Fatto il cambio macchina, siamo ripartiti più determinati che mai. Quando siamo arrivati, è stato amore a prima vista ❤️. Così abbiamo scelto questo posto magico per festeggiare insieme a voi 🎉  <br><br>
+La prima volta che siamo venuti qui, è stato amore a prima vista ❤️. Così abbiamo scelto questo posto magico per festeggiare insieme a voi 🎉  <br><br>
 
-**⚠️ Attenzione ai cartelli!**  Sul lungolago di Polline vedrete indicazioni per la *Tenuta di Polline*... ma **quella non** è la nostra destinazione 🙈 <br><br>
+**⚠️ Attenzione ai cartelli!**  <br><br>
+
+Sul lungolago di Polline vedrete indicazioni per la *Tenuta di Polline*... ma **quella non** è la nostra destinazione 🙈 <br><br>
 - Dovrete invece imboccare una **stradina in salita (Via di Polline)** che porta proprio al **Casale di Polline**.
 - L'ultimo tratto è una **strada bianca un po’ accidentata** — nulla di estremo, ma vi consigliamo di andare **piano e con calma**.
 - All’arrivo troverete ad accogliervi un **ampio parcheggio custodito**. <br><br>
@@ -34,11 +36,11 @@ La prima volta che siamo venuti qui, la macchina ci ha abbandonato a metà strad
 
 ## Info aggiuntive
 
-Sarete accolti a partire dalle **13:00**, anche se **noi difficilmente arriveremo prima delle 13:30**. Quindi prendetevela comoda... ma non troppo! 😉 <br><br>
+Sarete accolti a partire dalle **13:00**.<br><br>
 
 Dopo il pranzo seduti 🍽️, verso le **18:00** ci sarà il tanto atteso **taglio della torta** 🍰, e poi... **via con le danze fino al tramonto (e oltre!)**  <br><br>
 <!-- Potremo stare insieme **fino alle 20:30**, tra luci, musica e abbracci 🌅❤️ <br><br> -->
 
-Il ricevimento sarà curato da **Natalizi** — storico punto di riferimento per la Capitale da oltre un secolo — quindi sì, siete in ottime mani! 👨‍🍳🍷
+<!-- Il ricevimento sarà curato da **Natalizi** — storico punto di riferimento per la Capitale da oltre un secolo — quindi sì, siete in ottime mani! 👨‍🍳🍷
 
-<img src="./natalizi_1921.png" alt="Natalizi 1921" class="responsive-logo">
+<img src="./natalizi_1921.png" alt="Natalizi 1921" class="responsive-logo"> -->

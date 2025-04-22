@@ -108,7 +108,7 @@ title: "Il nostro Viaggio di Nozze"
 
 ### 💌 Un pensiero per il nostro viaggio  <br><br>
 
-Se desiderate farci un regalo, potete contribuire a realizzare questo viaggio di nozze. Sarà per noi un gesto prezioso, che porteremo nel cuore ad ogni tappa di questa fantastica avventura.  <br><br>
+Se desiderate farci un regalo, potete contribuire a realizzare questo viaggio di nozze. Sarà per noi un pensiero affettuoso, che porteremo nel cuore ad ogni tappa di questa fantastica avventura.  <br><br>
 
 Potete farci un bonifico al seguente IBAN: <br><br>
 
