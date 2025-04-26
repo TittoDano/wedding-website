@@ -49,15 +49,4 @@ disableKinds = ["sitemap", "RSS"]
   background_image_14 = "casale_cover.jpg"
   background_image_15 = "5marzo_cover.jpg"
   background_image_16 = "patagonia_cover.jpg"
-
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    identifier = "travel"
-    name = "Dove"
-    url = "/travel/"
-    weight = 2
+  
