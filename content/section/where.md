@@ -9,4 +9,4 @@ Cliccando qui di seguito, il navigatore vi indirizzerà direttamente al parchegg
 
 <br>
 
-<iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d741.8573390579675!2d12.460473869657717!3d41.94811199564954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f60ca9e4c6d39%3A0xdf75086c40abd027!2sVia%20Riccardo%20Zandonai%2C%2012%2C%2000135%20Roma%20RM!5e0!3m2!1sen!2sit!4v1744734605790!5m2!1sen!2sit" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d741.8573390579675!2d12.460473869657717!3d41.94811199564954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f60ca9e4c6d39%3A0xdf75086c40abd027!2sVia%20Riccardo%20Zandonai%2C%2012%2C%2000135%20Roma%20RM!5e0!3m2!1sen!2sit!4v1744734605790" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
