@@ -1,15 +1,16 @@
 {{ define "opengraph" }}
-  {{ $partyImage := resources.Get "image/casale_cover.jpg" | fingerprint }}
-  <meta property="og:image" content="{{ $partyImage.Permalink }}" />
-  <meta property="og:title" content="{{ .Site.Title }} - 💌 RSVP – Conferma la tua presenza al pranzo di nozze!" />
-  <meta property="og:description" content="Siamo felici di invitarti al pranzo del nostro matrimonio. Facci sapere, confermando la tua presenza!" />
+  {{ $churchImage := resources.Get "image/santachiara_cover.jpg" | fingerprint }}
+  <meta property="og:image" content="{{ $churchImage.Permalink }}" />
+  <meta property="og:title" content="{{ .Site.Title }} - 💒 Partecipa anche tu alla nostra Gioia!" />
+  <meta property="og:description" content="Saremmo felici di condividere con te il giorno del nostro matrimonio." />
   <meta property="og:url" content="{{ .Permalink }}" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Andrew & Niki" />
 {{ end }}
 
 {{ define "main" -}}
-{{ partial "saturday/navigation.html" . }}
+{{ partial "morning/navigation.html" . }}
+{{ partial "shared/dynamic_styles.html" . }}
 
 <section class="section light standalone">
     <h1 class="section__heading">{{.Page.Title}}</h1>

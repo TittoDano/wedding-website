@@ -3,9 +3,9 @@ draft: false
 title: "La Festa"
 ---
 
-## Il Casale di Polline
+## ✨ Il Casale di Polline
 
-✨ Immaginate un luogo sospeso tra cielo e lago, dove la natura accoglie ogni dettaglio con poesia. <br><br>
+Immaginate un luogo sospeso tra cielo e lago, dove la natura accoglie ogni dettaglio con poesia. <br><br>
 
 <img src="./chiesa_polline.jpg" alt="Casale di Polline" class="responsive-img">
 
