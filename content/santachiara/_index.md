@@ -6,7 +6,7 @@ title: "La Cerimonia"
 ## 💒 27 Settembre ore 10:30 - Ci sposiamo!
 
 Andrea Gallegati e Nicoletta Gentiloni Silveri si sposano. <br>
-Sarebbe per noi una gioia condividere con voi la celebrazione del nostro matrimonio in chiesa! <br>
+È per noi una gioia condividere con voi la celebrazione del nostro matrimonio in chiesa! <br>
 **Di seguito trovate tutti i dettagli.** <br><br>
 
 <img src="./santachiara.jpg" alt="Parrocchia di Santa Chiara" class="responsive-img">
