@@ -26,7 +26,7 @@ jobs:
         run: hugo --minify  # Build site and optimize output
 
       - name: Add CNAME file to build output
-        run: echo 'niki.andrew.style' > ./public/CNAME  # Set custom domain
+        run: echo 'tittodano.github.io/wedding-website' > ./public/CNAME  # Set custom domain
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
