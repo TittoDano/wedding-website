@@ -11,7 +11,7 @@ title: "Cosa Succede"
 
 🤵 Si attende la sposa.
 
-## 10:30 - Cerimonia
+## 10:00 - Cerimonia
 
 ❤️👰 Arriva la **sposa** !!
 
