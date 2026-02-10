@@ -1,7 +1,7 @@
 baseURL = "https://niki.andrew.style/"
 canonifyURLs = true
 languageCode = "it-IT"
-title = "Andrew & Niki's Wedding"
+title = "Federico & Chiara's Wedding"
 show_comments = false
 
 disableKinds = ["sitemap", "RSS"]

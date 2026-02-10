@@ -11,7 +11,7 @@ Andrea Gallegati e Nicoletta Gentiloni Silveri si sposano. <br>
 
 <img src="./santachiara.jpg" alt="Parrocchia di Santa Chiara" class="responsive-img">
 
-La cerimonia si terrà il **27 Settembre 2025, ore 10:30** presso la **Parrocchia Santa Chiara in Roma**, Via Riccardo Zandonai, 4, 00135 Roma RM. **Vi aspettiamo!** <br><br>
+La cerimonia si terrà il **26 Settembre 2026, ore 10:30** presso la **Parrocchia Santa Chiara in Roma**, Via Riccardo Zandonai, 4, 00135 Roma RM. **Vi aspettiamo!** <br><br>
 
 <img src="./5marzo_niki.jpg" alt="Parrocchia di Santa Chiara" class="responsive-img">
 
