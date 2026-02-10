@@ -1,7 +1,7 @@
 baseURL = "https://tittodano.github.io/wedding-website/"
 canonifyURLs = true
 languageCode = "it-IT"
-title = "Federico & X's Wedding"
+title = "Federico & Chiara's Wedding"
 show_comments = false
 
 disableKinds = ["sitemap", "RSS"]
